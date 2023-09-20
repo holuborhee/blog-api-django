@@ -32,7 +32,7 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env('DEBUG')
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['blog-api-django-hea1.onrender.com', '127.0.0.1']
 
 CORS_ALLOWED_ORIGINS=[
     'http://localhost:3000'
